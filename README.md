@@ -29,7 +29,7 @@ This project is designed as a clean split between:
 - **Authorised security tooling**: Nmap, SpiderFoot, Burp Suite, Metasploit, Wireshark/TShark, OWASP ZAP, OSINT helpers, reports, and optional HexStrike.
 - **Local web apps**: Open WebUI, LiteLLM, Qdrant, SearXNG, n8n, and Flowise.
 
-> Generated images in this README are SVG mockups/diagrams included in the repo. Replace them with real screenshots from your Kali desktop after installation if you want a more personal GitHub page.
+> Generated images in this README are SVG mockups/diagrams included in the repo. 
 >
 > Kali Linux is a trademark of OffSec. This is an independent community project and is not affiliated with or endorsed by OffSec.
 
