@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="KaliArc AI Lab hero">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.45" stop-color="#0B1028"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.55" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#A3FF12"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 .85 0 0 0 0 1 0 0 0 .7 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="360" rx="32" fill="url(#bg)"/>
+  <g opacity="0.15" stroke="#38BDF8">
+    <path d="M64 74h1050M64 145h1050M64 216h1050M64 287h1050"/>
+    <path d="M133 40v280M271 40v280M409 40v280M547 40v280M685 40v280M823 40v280M961 40v280M1099 40v280"/>
+  </g>
+  <text x="80" y="120" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="850" fill="#E5F7FF">KaliArc AI Lab</text>
+  <text x="82" y="168" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" fill="#AFC8E8">Build a private local AI workstation on Kali with Docker, Ollama, agents, MCP, and scoped security-tool helpers.</text>
+  <g transform="translate(82 220)" font-family="JetBrains Mono, Consolas, monospace" font-size="21">
+    <rect x="0" y="0" width="580" height="76" rx="18" fill="#020617" stroke="#1E3A5F"/>
+    <circle cx="28" cy="28" r="6" fill="#EF4444"/>
+    <circle cx="52" cy="28" r="6" fill="#F59E0B"/>
+    <circle cx="76" cy="28" r="6" fill="#22C55E"/>
+    <text x="28" y="57" fill="#A3FF12">$ ./setup.sh --full --with-hexstrike</text>
+  </g>
+  <g transform="translate(782 74)">
+    <path d="M145 0 270 72v144l-125 72-125-72V72L145 0Z" fill="#071021" stroke="#24324B" stroke-width="4"/>
+    <path d="M76 201c-23-41-12-93 27-120 39-27 93-19 123 18" fill="none" stroke="url(#line)" stroke-width="17" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M224 101c21 39 10 89-27 116-34 24-80 20-109-7" fill="none" stroke="#172033" stroke-width="13" stroke-linecap="round"/>
+    <path d="M90 139l40 20-40 20" fill="none" stroke="#E5F7FF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M148 197h64" stroke="#A3FF12" stroke-width="13" stroke-linecap="round" filter="url(#glow)"/>
+  </g>
+  <path d="M80 326h1040" stroke="url(#line)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+</svg>

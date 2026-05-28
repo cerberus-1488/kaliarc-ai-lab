@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <style>
+    .bg{fill:#020617}.bar{fill:#1f2937}.term{fill:#0b1120;stroke:#334155;stroke-width:2;rx:18}
+    .txt{fill:#d1d5db;font:22px ui-monospace,SFMono-Regular,Menlo,monospace}
+    .green{fill:#22c55e}.blue{fill:#38bdf8}.muted{fill:#64748b}
+  </style>
+  <rect class="bg" width="1200" height="675"/>
+  <rect class="term" x="70" y="70" width="1060" height="535"/>
+  <rect class="bar" x="70" y="70" width="1060" height="50" rx="18"/>
+  <circle fill="#ef4444" cx="105" cy="95" r="8"/><circle fill="#f59e0b" cx="132" cy="95" r="8"/><circle fill="#22c55e" cx="159" cy="95" r="8"/>
+  <text class="txt blue" x="105" y="165">$ ~/kali-local-ai-lab/bin/tool-menu.sh</text>
+  <text class="txt" x="105" y="215">1) List scope</text>
+  <text class="txt" x="105" y="255">2) Add scope target</text>
+  <text class="txt" x="105" y="295">3) Nmap safe scan</text>
+  <text class="txt" x="105" y="335">4) SpiderFoot local UI</text>
+  <text class="txt" x="105" y="375">5) Burp Suite</text>
+  <text class="txt" x="105" y="415">6) Metasploit workspace</text>
+  <text class="txt" x="105" y="455">7) Wireshark</text>
+  <text class="txt green" x="105" y="520"># Reports are saved under ~/kali-local-ai-lab/reports</text>
+  <text class="txt muted" x="105" y="560"># Target-specific wrappers check allowed-targets.txt first</text>
+</svg>

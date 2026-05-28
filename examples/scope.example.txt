@@ -1,0 +1,9 @@
+# Add targets you own or are authorised to test.
+# CIDR
+192.168.56.0/24
+
+# IP
+10.10.10.5
+
+# Domain
+example.test
