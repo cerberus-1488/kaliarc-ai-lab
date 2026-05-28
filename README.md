@@ -388,23 +388,3 @@ Remove menu entries:
 ```
 
 ---
-
-## Recommended first GitHub push
-
-```bash
-git init
-git add .
-git commit -m "Initial KaliArc AI Lab release"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/kaliarc-ai-lab.git
-git push -u origin main
-```
-
----
-
-## Notes
-
-- The default bind address is `127.0.0.1`.
-- Do not expose local AI services to untrusted networks without authentication, firewalling, and reverse proxy hardening.
-- HexStrike is optional and kept separate from the general agents.
-- Target-specific wrappers are designed for local labs and authorised systems only.
