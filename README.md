@@ -282,21 +282,4 @@ http://127.0.0.1:3000
 ```
 
 ---
-
-## Local service URLs
-
-| Service | URL |
-|---|---|
-| Open WebUI | `http://127.0.0.1:3000` |
-| Ollama API | `http://127.0.0.1:11434` |
-| LiteLLM API | `http://127.0.0.1:4000` |
-| SearXNG | `http://127.0.0.1:8088` |
-| n8n | `http://127.0.0.1:5678` |
-| Flowise | `http://127.0.0.1:3001` |
-| Qdrant dashboard | `http://127.0.0.1:6333/dashboard` |
-| SpiderFoot | `http://127.0.0.1:5001` when launched |
-| HexStrike | `http://127.0.0.1:8888` when launched |
-
----
-
-## Repo
+##Repo
